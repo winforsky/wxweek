@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/week/week",
     "pages/about/about"
+    
   ]
 }

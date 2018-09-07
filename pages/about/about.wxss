@@ -3,15 +3,7 @@
   font-weight: bolder;
 }
 
-.container{
-  background-color: #eee;
-  height: 100vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
+
 
 .about-banner{
   height: 376rpx;
