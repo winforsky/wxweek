@@ -5,11 +5,29 @@ Page({
    */
   data: {
     "movie": {
-      "name": "第二十届投洽会明日开幕",
+      "name": "投洽会明日开幕",
       "img": "http://img.xmnn.cn/003/002/790/00300279007_598912e6.jpg",
       "desc": "第二十届投洽会明日开幕 12万名客商共赴全球投资盛会",
-      "isRemed":true
+      "isRemed":false
     },
+    "movies":[
+      {
+        "name": "会明日开幕",
+        "img": "http://img.xmnn.cn/003/002/790/00300279007_598912e6.jpg",
+        "desc": "第二十届投洽会明日开幕 12万名客商共赴全球投资盛会",
+        "isRemed": false
+      }, {
+        "name": "第二十届开幕",
+        "img": "http://img.xmnn.cn/003/002/790/00300279007_598912e6.jpg",
+        "desc": "第二十届投洽会明日开幕 12万名客商共赴全球投资盛会",
+        "isRemed": true
+      }, {
+        "name": "第二日开幕",
+        "img": "http://img.xmnn.cn/003/002/790/00300279007_598912e6.jpg",
+        "desc": "第二十届投洽会明日开幕 12万名客商共赴全球投资盛会",
+        "isRemed": true
+      }
+    ],
     "score":68
   },
 

@@ -6,4 +6,15 @@
 <text>{{(score>=60)?"合格":"不合格"}}</text>
 <text wx:if="{{movie.isRemed}}" style='font-size:32rpx; color:red;'>强烈推荐</text>
 <text hidden="{{!movie.isRemed}}" style='font-size:32rpx; color:red;'>强烈推荐</text>
+<view>
+<view wx:for="{{movies}}" class='movie'>
+<image class='movie-img' src="{{item.img}}"></image>
+<view class='movie-detail'>
+<text class="info">第{{index+1}}周： {{item.name}}</text>
+<text class="info">{{item.desc}}</text>
+<text wx:if="{{item.isRemed}}" style='font-size:32rpx; color:red;'>强烈推荐</text>
+</view>
+</view>
+</view>
+
 </view>
