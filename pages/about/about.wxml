@@ -1,6 +1,10 @@
 <view class='container'>
 <image class='about-banner' src="/images/sim.png"></image>
 <text class="info">Hello world</text>
-<text class="info">Hello world</text>
+<view>
+<text>我的 </text>
+<navigator url='/pages/week/week' open-type='redirect' style='display: inline-block;' hover-class='nav-hover' >每周推荐</navigator>
+<text> 的电影</text>
+</view>
 <text class="info">Hello world</text>
 </view>
