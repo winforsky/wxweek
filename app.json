@@ -19,5 +19,13 @@
     }],
     "color": "#000000",
     "selectedColor": "#0000ff"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "电影周周看",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
   }
 }
