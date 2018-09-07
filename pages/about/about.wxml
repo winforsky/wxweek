@@ -1,5 +1,5 @@
 <view class='container'>
-<image src="/images/sim.png"></image>
+<image class='about-banner' src="/images/sim.png"></image>
 <text class="info">Hello world</text>
 <text class="info">Hello world</text>
 <text class="info">Hello world</text>
