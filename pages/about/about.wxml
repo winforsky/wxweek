@@ -1,1 +1,6 @@
+<view class='container'>
+<image src="/images/sim.png"></image>
 <text class="info">Hello world</text>
+<text class="info">Hello world</text>
+<text class="info">Hello world</text>
+</view>

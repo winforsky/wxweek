@@ -1,4 +1,18 @@
 .info{
-  font-size: 32pt;
+  font-size: 16pt;
   font-weight: bolder;
+}
+
+.container{
+  background-color: #eee;
+  height: 100vh;
+  text-align: center;
+}
+
+text{
+  display: block;
+}
+
+image, text{
+  margin-bottom: 10px;
 }
