@@ -7,12 +7,8 @@
   background-color: #eee;
   height: 100vh;
   text-align: center;
-}
-
-text{
-  display: block;
-}
-
-image, text{
-  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
