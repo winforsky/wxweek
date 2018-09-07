@@ -4,5 +4,20 @@
     "pages/about/about",
     "pages/week/week"
     
-  ]
+  ],
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/week/week",
+      "text": "每周推荐",
+      "iconPath": "images/icons/tui.png",
+      "selectedIconPath": "images/icons/tui-on.png"
+    },{
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "images/icons/about.png",
+      "selectedIconPath": "images/icons/about-on.png"
+    }],
+    "color": "#000000",
+    "selectedColor": "#0000ff"
+  }
 }
