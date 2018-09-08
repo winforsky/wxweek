@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    count: 0
   },
 
   /**
@@ -61,5 +61,10 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+  addCount: function(event){
+    this.setData({
+      count:this.data.count+1
+    });
   }
 })
