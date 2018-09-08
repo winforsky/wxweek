@@ -1,4 +1,5 @@
 <view class='container'>
+<text class='backbtn'wx:if="{{currentIndex<(movies.length-1)}}" >返回本周</text>
   <text>本周推荐</text>
   <image class='about-banner' src="{{movie.img}}"></image>
   <text class="info">{{movie.name}}</text>
@@ -7,7 +8,7 @@
   <text wx:if="{{movie.isRemed}}" style='font-size:32rpx; color:red;'>强烈推荐</text>
   <text hidden="{{!movie.isRemed}}" style='font-size:32rpx; color:red;'>强烈推荐</text>
 
-  <swiper class='movie-swiper' indicator-dots='true' autoplay='true' previous-margin='50rpx' next-margin='50rpx'>
+  <swiper class='movie-swiper' indicator-dots='true' autoplay='true' previous-margin='50rpx' next-margin='50rpx' current='{{currentIndex}}'>
     <swiper-item wx:for="{{movies}}" class='movie'>
       <image class='movie-img' src="{{item.img}}"></image>
       <view class='movie-detail'>

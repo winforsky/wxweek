@@ -31,3 +31,10 @@ swiper-item {
 text {
   display: block;
 }
+
+.backbtn {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  background-color: burlywood;
+}
