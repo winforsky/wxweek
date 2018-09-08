@@ -1,3 +1,3 @@
 <view class="container">
-<text>详情</text>
+<text>电影{{mid}}-详情</text>
 </view>
