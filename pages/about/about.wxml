@@ -7,4 +7,18 @@
 <text> 的电影</text>
 </view>
 <text class="info">Hello world</text>
+<swiper style='height:250rpx;width:100%;' indicator-dots='true' autoplay='true'>
+<swiper-item>
+<text class='info'>阿萨德林俊杰</text>
+<image src='http://img.xmnn.cn/003/002/790/00300279007_598912e6.jpg'></image>
+</swiper-item>
+<swiper-item>
+<text>收费的水电费</text>
+<image src='http://img.xmnn.cn/003/002/790/00300279007_598912e6.jpg'></image>
+</swiper-item>
+<swiper-item>
+<text>时代大厦</text>
+<image src='http://img.xmnn.cn/003/002/790/00300279007_598912e6.jpg'></image>
+</swiper-item>
+</swiper>
 </view>

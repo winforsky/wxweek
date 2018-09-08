@@ -3,6 +3,16 @@
   height: 80rpx;
 }
 
+.movie-swiper {
+  width:100%;
+  height:250rpx;
+}
+
+swiper-item {
+  background-color: #eee;
+  margin: 0 20rpx;
+}
+
 .movie {
   display: flex;
 }
