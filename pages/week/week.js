@@ -37,7 +37,7 @@ Page({
    */
   onLoad: function (options) {
     this.setData({
-      currentIndex: this.data.movies.length-1
+      currentIndex: this.data.movies.length-2
     });
   },
 
@@ -88,5 +88,11 @@ Page({
    */
   onShareAppMessage: function () {
     
+  },
+
+  f0:function(event){
+    this.setData({
+      currentIndex:this.data.movies.length-1
+    });
   }
 })

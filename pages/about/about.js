@@ -63,6 +63,7 @@ Page({
     
   },
   addCount: function(event){
+    console.log(event)
     this.setData({
       count:this.data.count+1
     });

@@ -1,5 +1,5 @@
 <view class='container'>
-<text class='backbtn'wx:if="{{currentIndex<(movies.length-1)}}" >返回本周</text>
+<text class='backbtn' catchtap='f0' wx:if="{{currentIndex<(movies.length-1)}}">返回本周</text>
   <text>本周推荐</text>
   <image class='about-banner' src="{{movie.img}}"></image>
   <text class="info">{{movie.name}}</text>
