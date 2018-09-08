@@ -9,7 +9,7 @@
   <text hidden="{{!movie.isRemed}}" style='font-size:32rpx; color:red;'>强烈推荐</text>
 
   <swiper class='movie-swiper' indicator-dots='true' autoplay='true' previous-margin='50rpx' next-margin='50rpx' current='{{currentIndex}}'>
-    <swiper-item wx:for="{{movies}}" class='movie'>
+    <swiper-item wx:for="{{movies}}" class='movie' catchtap="f1" data-user-name="xxxx" data-movie-id="{{item.id}}">
       <image class='movie-img' src="{{item.img}}"></image>
       <view class='movie-detail'>
         <text class="info">第{{index+1}}周： {{item.name}}</text>
