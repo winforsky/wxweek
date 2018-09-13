@@ -16,26 +16,7 @@ Page({
       mid:options.id
     });
 
-    wx.request({
-      url: 'https://baidu.com',//域名必须备案和在后台配置，http://api.douban.com/v2/movie/top250?start=5&count=25
-      method: 'GET',
-      data:{
-        q:'微信小程序'
-      },
-      header:{
-
-      },
-      success:function(res){
-        console.log(res);
-      },
-
-      fail:function(){
-
-      },
-      complete:function(){
-
-      }
-    })
+    
   },
 
   /**
